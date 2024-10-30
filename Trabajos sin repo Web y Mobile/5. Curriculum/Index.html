@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script src="Function.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <div class="container mt-5">
+        <div class="row justify-content-around">
+            <div class="col-lg-4 col-md-5 col-sm-12">
+                <div class="text-center mb-4">
+                    <img src="Foto.jpg" alt="Foto de perfil" class="rounded-circle img-fluid" style="width: 150px;">
+                </div>
+                <h2 class="text-center">Franco Pizzolante</h2>
+                <p class="text-center">Ingeniero en sistemas</p>
+                <hr>
+                <h4>Datos Personales:</h4>
+                <ul>
+                    <li>Teléfono: 094863084</li>
+                    <li>Email: Francogpizzolantesuarez@gmail.com</li>
+                    <li>Dirección: Zorrilla de san martin entre pilcomayo y pampas</li>
+                </ul>
+                <hr>
+                <h4>Idiomas:</h4>
+                <ul>
+                    <li>Espaniol (Nativo)</li>
+                    <li>Ingles (Avanzado)</li>
+                </ul>
+                <hr>
+                <h4>Habilidades:</h4>
+                <ul>
+                    <li>Buena habilidad para el trato con clientes</li>
+                    <li>Rápido aprendizaje </li>
+                    <li>Carné de salud vigente</li>
+                    <li>Carné de manipulación de alimentos vigente</li>
+                </ul>
+                <hr>
+                <h4>Sobre mi:</h4>
+                <p>Soy un ingeniero en sistemas con una sólida formación académica y experiencia en el desarrollo de proyectos innovadores, tanto en ciberseguridad como en el desarrollo de videojuegos. Me apasiona la tecnología y disfruto resolviendo problemas complejos, lo que me ha llevado a especializarme en áreas que demandan alta precisión y creatividad. Mi capacidad de aprendizaje rápido y mi habilidad para trabajar en equipo me permiten adaptarme a diferentes entornos laborales, siempre buscando contribuir con soluciones efectivas y de alto impacto.</p>
+            </div>
+            <div class="col-lg-7 col-md-6 col-sm-12">
+                <h4>Estudios:</h4>
+                <ul>
+                    <li>Ingeniaro en sistemas - Universidad Catolica del Uruguay (2020)</li>
+                    <li>Máster en Ciberseguridad - Universidad Catolica del Uruguay (2022)</li>
+                    <li>Máster en Videojuegos - Universidad Catolica del Uruguay (2024)</li>
+                </ul>
+                <hr>
+                <h4>Proyectos:</h4>
+                <div class="row">
+                    <div class="col-lg-6 col-sm-12">
+                        <div class="card mb-4">
+                            <div class="card-body">
+                                <h5 class="card-title">Aplicación de Seguridad para Redes Wi-Fi:</h5>
+                                <p class="card-text"> una aplicación para la evaluación de seguridad en redes Wi-Fi, que escanea y reporta vulnerabilidades como contraseñas débiles y configuraciones incorrectas.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-sm-12">
+                        <div class="card mb-4">
+                            <div class="card-body">
+                                <h5 class="card-title">Videojuego de Plataforma 2D:</h5>
+                                <p class="card-text">un videojuego de plataforma 2D con temática retro, incorporando mecánicas de juego como recolección de ítems, resolución de puzzles y combate.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <hr>
+                    <h4>Contacto:</h4>
+                    <form>
+                        <div class="mb-3">
+                            <label for="nombre" class="form-label">Nombre:</label>
+                            <input type="text" class="form-control required" id="nombre" placeholder="Ingresa tu nombre" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="email" class="form-label">Email:</label>
+                            <input type="email" class="form-control required" id="email" placeholder="Ingresa tu email" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="asunto" class="form-label">Asunto:</label>
+                            <input type="text" class="form-control required" id="asunto" placeholder="Ingresa el asunto" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="mensaje" class="form-label">Mensaje:</label>
+                            <textarea class="form-control required" id="mensaje" rows="5" placeholder="Escribe tu mensaje aquí" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-warning" onclick="ValidarInformacion()">Enviar</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
